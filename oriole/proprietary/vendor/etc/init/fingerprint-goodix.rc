@@ -1,0 +1,4 @@
+service vendor.fingerprint-goodix /vendor/bin/hw/android.hardware.biometrics.fingerprint-service.goodix
+    class late_start
+    user system
+    group system input

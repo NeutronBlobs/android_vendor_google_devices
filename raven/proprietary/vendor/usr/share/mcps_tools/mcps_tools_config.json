@@ -1,0 +1,232 @@
+{
+  "command_list":
+  {
+    "call_region":7
+  },
+  "report_list":
+  {
+    "fira_session_notification":
+    {
+      "1":{"name":"hw", "type":"u32"},
+      "2":{"name":"wpan", "type":"string"},
+      "3":{"name":"sched_name", "type":"string"},
+      "8":
+      {
+        "name":"sched_region_call", "type":"nested", "nested_schema":
+        {
+          "1":{"name":"region_id", "type":"u32"},
+          "2":{"name":"region_name", "type":"string"},
+          "4":{"name":"region_call_id", "type":"u32"},
+          "5":
+          {
+            "name":"region_call_params", "type":"nested", "nested_schema":
+            {
+              "1":{"name":"session_id", "type":"u32"},
+              "4":
+              {
+                "name":"ranging_data", "type":"nested", "nested_schema":
+                {
+                  "1":{"name":"stopped", "type":"u8"},
+                  "2":{"name":"block_index", "type":"u32"},
+                  "3":{"name":"timestamp_ns", "type":"u64"},
+                  "4":{"name":"ranging_interval_ms", "type":"u32"},
+                  "5":
+                  {
+                    "name":"ranging_measurements", "type":"nested_array", "nested_schema":
+                    {
+                      "1":{"name":"short_addr", "type":"u16"},
+                      "2":{"name":"stopped", "type":"u8"},
+                      "3":{"name":"status", "type":"u8"},
+                      "4":{"name":"slot_index", "type":"u8"},
+                      "5":{"name":"nlos", "type":"u8"},
+                      "6":{"name":"los", "type":"u8"},
+                      "7":{"name":"distance_mm", "type":"s32"},
+                      "8":
+                      {
+                        "name":"local_aoa", "type":"nested", "nested_schema":
+                        {
+                          "1":{"name":"rx_antenna_pair", "type":"u8"},
+                          "2":{"name":"aoa_2pi", "type":"s16"},
+                          "3":{"name":"aoa_fom", "type":"u8"},
+                          "4":{"name":"pdoa_2pi", "type":"s16"}
+                        }
+                      },
+                      "9":
+                      {
+                        "name":"local_aoa_azimuth", "type":"nested", "nested_schema":
+                        {
+                          "1":{"name":"rx_antenna_pair", "type":"u8"},
+                          "2":{"name":"aoa_2pi", "type":"s16"},
+                          "3":{"name":"aoa_fom", "type":"u8"},
+                          "4":{"name":"pdoa_2pi", "type":"s16"}
+                        }
+                      },
+                      "10":
+                      {
+                        "name":"local_aoa_elevation", "type":"nested", "nested_schema":
+                        {
+                          "1":{"name":"rx_antenna_pair", "type":"u8"},
+                          "2":{"name":"aoa_2pi", "type":"s16"},
+                          "3":{"name":"aoa_fom", "type":"u8"},
+                          "4":{"name":"pdoa_2pi", "type":"s16"}
+                        }
+                      },
+                      "11":{"name":"remote_aoa_azimuth_2pi", "type":"s16"},
+                      "12":{"name":"remote_aoa_elevation_2pi", "type":"s16"},
+                      "13":{"name":"remote_aoa_azimuth_fom", "type":"u8"},
+                      "14":{"name":"remote_aoa_elevation_fom", "type":"u8"},
+                      "15":{"name":"data_payload_seq_sent", "type":"u32"},
+                      "16":{"name":"data_payload_recv", "type":"binary"}
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "nfcc_coex_session_notification":
+    {
+      "1":{"name":"hw", "type":"u32"},
+      "2":{"name":"wpan", "type":"string"},
+      "3":{"name":"sched_name", "type":"string"},
+      "8":
+      {
+        "name":"sched_region_call", "type":"nested", "nested_schema":
+        {
+          "1":{"name":"region_id", "type":"u32"},
+          "2":{"name":"region_name", "type":"string"},
+          "4":{"name":"region_call_id", "type":"u32"},
+          "5":
+          {
+            "name":"region_call_params", "type":"nested", "nested_schema":
+            {
+              "2":{"name":"watchdog_timeout", "type":"u8"},
+              "3":{"name":"stopped", "type":"u8"}
+            }
+          }
+        }
+      }
+    }
+  },
+  "fira_session":
+  {
+    "scheduler_name":{"index":3, "type":"string"},
+    "call_region":
+    { "index":8, "type":"nested", "nested_schema":
+      {
+        "region_name":{"index":2, "type":"string"},
+        "call_id":
+        { "index":4, "type":"u32", "values":
+          {
+            "init":1,
+            "start":2,
+            "stop":3,
+            "deinit":4,
+            "set_parameters":5,
+            "add_controlees":6,
+            "del_controlees":7
+          }
+        },
+        "session":
+        { "index":5, "type":"nested", "nested_schema":
+          {
+            "session_id":{"index":1, "type":"u32"},
+            "session_params":
+            { "index":2, "type":"nested", "nested_schema":
+              {
+                "device_type":{"index":1, "type":"u8"},
+                "device_role":{"index":2, "type":"u8"},
+                "ranging_round_usage":{"index":3, "type":"u8"},
+                "multi_node_mode":{"index":4, "type":"u8"},
+                "short_addr":{"index":5, "type":"u16"},
+                "destination_short_addr":{"index":6, "type":"u16"},
+                "initiation_time_ms":{"index":7, "type":"u32"},
+                "slot_duration_rstu":{"index":8, "type":"u32"},
+                "block_duration_ms":{"index":9, "type":"u32"},
+                "round_duration_slots":{"index":10, "type":"u32"},
+                "block_striding_value":{"index":11, "type":"u32"},
+                "max_rr_retry":{"index":12, "type":"u32"},
+                "round_hopping":{"index":13, "type":"u8"},
+                "block_striding":{"index":14, "type":"u8"},
+                "priority":{"index":15, "type":"u8"},
+                "result_report_phase":{"index":16, "type":"u8"},
+                "mr_at_initiator":{"index":17, "type":"u8"},
+                "embedded_mode":{"index":18, "type":"u8"},
+                "in_band_termination_attempt_count":{"index":19, "type":"u32"},
+                "channel_number":{"index":20, "type":"u8"},
+                "preamble_code_index":{"index":21, "type":"u8"},
+                "rframe_config":{"index":22, "type":"u8"},
+                "prf_mode":{"index":23, "type":"u8"},
+                "preamble_duration":{"index":24, "type":"u8"},
+                "sfd_id":{"index":25, "type":"u8"},
+                "number_of_sts_segments":{"index":26, "type":"u8"},
+                "psdu_data_rate":{"index":27, "type":"u8"},
+                "bprf_phr_data_rate":{"index":28, "type":"u8"},
+                "mac_fcs_type":{"index":29, "type":"u8"},
+                "tx_adaptive_payload_power":{"index":30, "type":"u8"},
+                "rx_antenna_selection":{"index":31, "type":"u8"},
+                "rx_antenna_azimuth":{"index":32, "type":"u8"},
+                "rx_antenna_elevation":{"index":33, "type":"u8"},
+                "tx_antenna_selection":{"index":34, "type":"u8"},
+                "rx_antenna_switch":{"index":35, "type":"u8"},
+                "sts_config":{"index":36, "type":"u8"},
+                "sub_session_id":{"index":37, "type":"u32"},
+                "vupper64":{"index":38, "type":"binary"},
+                "session_key":{"index":39, "type":"binary"},
+                "sub_session_key":{"index":40, "type":"binary"},
+                "key_rotation":{"index":41, "type":"u8"},
+                "key_rotation_rate":{"index":42, "type":"u8"},
+                "aoa_result_req":{"index":43, "type":"u8"},
+                "report_tof":{"index":44, "type":"u8"},
+                "report_aoa_azimuth":{"index":45, "type":"u8"},
+                "report_aoa_elevation":{"index":46, "type":"u8"},
+                "report_aoa_fom":{"index":47, "type":"u8"},
+                "data_vendor_oui":{"index":48, "type":"u32"},
+                "data_payload":{"index":49, "type":"binary"}
+              }
+            },
+            "controlee":
+            { "index":3, "type":"nested", "nested_schema":
+              {
+                "short_addr":{"index":1, "type":"u16"},
+                "sub_session_id":{"index":2, "type":"u32"},
+                "sub_session_key":{"index":3, "type":"binary"}
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "nfcc_coex_session":
+  {
+    "scheduler_name":{"index":3, "type":"string"},
+    "call_region":
+    { "index":8, "type":"nested", "nested_schema":
+      {
+        "region_name":{"index":2, "type":"string"},
+        "call_id":
+        { "index":4, "type":"u32", "values":
+          {
+            "start":0,
+            "stop":1
+          }
+        },
+        "session":
+        { "index":5, "type":"nested", "nested_schema":
+          {
+            "session_params":
+            { "index":1, "type":"nested", "nested_schema":
+              {
+                "time0_ns":{"index":1, "type":"u64"},
+                "channel_number":{"index":2, "type":"u8"}
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

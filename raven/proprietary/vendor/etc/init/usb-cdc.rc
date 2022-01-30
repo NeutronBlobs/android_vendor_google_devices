@@ -1,0 +1,5 @@
+service uci /vendor/bin/uci_daemon
+    #capabilities NET_RAW NET_ADMIN SYS_ADMIN SYS_TTY_CONFIG
+    user root
+    class core
+    disabled

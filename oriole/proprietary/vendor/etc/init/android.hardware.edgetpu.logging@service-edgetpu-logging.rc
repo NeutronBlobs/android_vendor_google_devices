@@ -1,0 +1,15 @@
+# When enabling on a device, SELinux policies need to be added for the driver
+# binary. Android startup services should run in their own SELinux domain.
+# https://source.android.com/security/selinux/device-policy#label_new_services_and_address_denials
+service edgetpu_logging /vendor/bin/hw/android.hardware.edgetpu.logging@service-edgetpu-logging
+    class late_start
+    user system
+    group system
+on init
+    chown system system /sys/class/edgetpu/abrolhos/device/inference_count
+    chown system system /sys/class/edgetpu/abrolhos/device/param_cache_hit_count
+    chown system system /sys/class/edgetpu/abrolhos/device/preempt_depth_max
+    chown system system /sys/class/edgetpu/abrolhos/device/context_preempt_count
+    chown system system /sys/class/edgetpu/abrolhos/device/outstanding_commands_max
+    chown system system /sys/class/edgetpu/abrolhos/device/tpu_op_count
+    chown system system /sys/class/edgetpu/abrolhos/device/fw_thread_stats

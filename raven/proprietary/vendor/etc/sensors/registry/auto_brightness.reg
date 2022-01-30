@@ -1,0 +1,8 @@
+#
+# Auto brightness configuration registry script.
+#
+
+# Auto brightness
++/vsc/auto_brightness
+max_lux_to_remap=2.0
+remap_lux=0.7
