@@ -14,7 +14,6 @@ android:string/config_defaultAttentionService = com.google.android.as/com.google
 android:bool/config_fingerprintSupportsGestures = true
 android:bool/config_supportsCamToggle = true
 android:bool/config_supportsMicToggle = true
-android:bool/config_volumeAdjustmentForRemoteGroupSessions = false
 android:string/config_defaultOnDeviceSpeechRecognitionService = com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSpeechRecognitionService
 android:string/config_defaultSearchUiService = com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSearchUiService
 android:string/config_defaultSmartspaceService = com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSmartspaceService

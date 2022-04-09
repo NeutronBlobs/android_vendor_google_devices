@@ -456,42 +456,43 @@ ruppr5g160qam64=0x2cb5ad6b
 ruppr5g160qam256=0x2cb5ad6b
 ruppr5g160qam1024=0x2cb5ad6b
 
-## Platform specific, need to retune ##
+# Kvalues for PHYTS method, in ps resolution
+phyts_5g80_kval=0xb22,0x9e2,0xb19,0x9c7,0x9cb,0x902
 # Base K Values (For the VHT case 5G 160 & 5G80/40/20/2G20)
-proxd_basekival_5g_160=35312
-proxd_basektval_5g_160=35312
-proxd_basekival=36016,34867,36521,36548
-proxd_basektval=36016,34867,36521,36548
+proxd_basekival_5g_160=35707
+proxd_basektval_5g_160=35707
+proxd_basekival=36008,34862,36523,36398
+proxd_basektval=36008,34862,36523,36398
 # Offsets across channels (Upper nibble for target, lower nibble for initiator - saved in hex)
-proxd_160mkval=0x0b0b,0x0000
-proxd_80mkval=0x1010,0x0d0d,0x0505,0x0000,0x0101,0x0000
-proxd_40mkval=0x2020,0x1d1d,0x1919,0x1717,0x0a0a,0x0707,0x0a0a,0x0707,0x0404,0x0505,0x1616,0x0000
-proxd_20mkval=0x2e2e,0x3232,0x2a2a,0x2f2f,0x2424,0x2b2b,0x2020,0x2828,0x1414,0x1919,0x0f0f,0x1818,0x0f0f,0x1414,0x0d0d,0x1414,0x0a0a,0x1010,0x0707,0x0e0e,0x2121,0x2c2c,0x2020,0x0000,0x0101
-proxd_2gkval=0x2f3,0x50,0x53,0x59,0x0,0x4c,0x50,0x55,0x1e,0x4c,0x2b5,0x2e9,0x2f1,0
+proxd_160mkval=0x0d0d,0x0000
+proxd_80mkval=0x0d0d,0x1111,0x0505,0x0202,0x0000,0x0404
+proxd_40mkval=0x2020,0x1c1c,0x1818,0x1616,0x0b0b,0x0808,0x0808,0x0404,0x0202,0x0000,0x1818,0x0101
+proxd_20mkval=0x2929,0x2f2f,0x2525,0x2b2b,0x1e1e,0x2525,0x1b1b,0x2121,0x0c0c,0x1313,0x0808,0x1d1d,0x0606,0x0c0c,0x0303,0x0a0a,0x0101,0x0707,0x0000,0x0707,0x1d1d,0x2323,0x1b1b,0x0000,0x0505
+proxd_2gkval=0x3a6,0x61,0x63,0x0,0x50,0x5a,0x5d,0x1f,0x4f,0x5b,0x3a7,0x396,0x3a9,0
 # Offsets across frame formats @ Initiator
 # Only for non-VHT frame (Leg6, Leg non-6, mcs0, non-mcs0)
 # Delta between the base values are adjusted here
-proxdi_rate160m=2430,7953,0,0
-proxdi_rate80m=2708,7950,0,0
-proxdi_rate40m=1639,7545,15,15
-proxdi_rate20m=2316,7745,62,63
-proxdi_rate2g=2263,7685,76,119
+proxdi_rate160m=2426,7960,0,0
+proxdi_rate80m=2694,7945,0,0
+proxdi_rate40m=1640,7543,15,16
+proxdi_rate20m=2313,7756,61,61
+proxdi_rate2g=2248,7727,74,76
 proxdi_ack=0,0,0,0
 # Offsets across frame formats @ Responder
-proxdt_rate160m=2430,7953,0,0
-proxdt_rate80m=2708,7950,0,0
-proxdt_rate40m=1639,7545,15,15
-proxdt_rate20m=2316,7745,62,63
-proxdt_rate2g=2263,7685,76,119
+proxdt_rate160m=2426,7960,0,0
+proxdt_rate80m=2694,7945,0,0
+proxdt_rate40m=1640,7543,15,16
+proxdt_rate20m=2313,7756,61,61
+proxdt_rate2g=2248,7727,74,76
 proxdt_ack=0,0,0,0
 # Offsets for sub-bands (VHT, Leg6, Leg non-6, mcs0, non-mcs0)
-proxd_sub160m80m=-15,-20,-17,0,0
-proxd_sub160m40m=977,-72,666,0,0
-proxd_sub160m20m=1639,72,1256,0,0
-proxd_sub80m40m=973,-80,661,0,0
-proxd_sub80m20m=1646,84,1343,0,0
-proxd_sub40m20m=200,-299,160,185,186
-# Base K Values (For the HE case 6G 160/80/40/20)
+proxd_sub160m80m=-17,-20,-22,0,0
+proxd_sub160m40m=979,-80,651,0,0
+proxd_sub160m20m=1640,77,1252,0,0
+proxd_sub80m40m=973,-68,664,0,0
+proxd_sub80m20m=1646,95,1349,0,0
+proxd_sub40m20m=195,-303,157,179,182
+												 
 proxd_basekval_6g=39570,40446,39239,40842
 # Offsets across channels
 proxd_6g_160mkval=0x8,0x7,0x2,0x16,0xa,0x6,0x0

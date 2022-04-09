@@ -19,6 +19,7 @@ SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
     hardware/google/pixel-sepolicy/flipendo
 
 BOARD_VENDOR_SEPOLICY_DIRS += \
+    hardware/google/pixel-sepolicy/input \
     hardware/google/pixel-sepolicy/googlebattery \
     hardware/google/pixel-sepolicy/turbo_adapter \
     vendor/google_devices/oriole/sepolicy

@@ -200,13 +200,26 @@ single_tap_min_frame_count=3
 single_tap_max_frame_count=31
 single_press_motion_tolerance=255
 single_press_max_touch_size=48
+# LPTW v1 parameters (common)
 long_press_min_x=427
 long_press_max_x=653
 long_press_min_y=1656
 long_press_max_y=1882
 long_press_min_frame_count=3
-long_press_motion_tolerance=255
+long_press_motion_tolerance=510
 long_press_max_touch_size=48
+# LPTW v2 parameters (extension)
+long_press_extended_param=1
+long_press_marginal_area_min_x=383
+long_press_marginal_area_max_x=697
+long_press_marginal_area_min_y=1612
+long_press_marginal_area_max_y=1926
+long_press_motion_tolerance_outer=510
+long_press_min_touch_node_count=1
+long_press_monitor_channel_min_tx=6
+long_press_monitor_channel_max_tx=9
+long_press_monitor_channel_min_rx=23
+long_press_monitor_channel_max_rx=26
 
 # VSC.
 +/vsc

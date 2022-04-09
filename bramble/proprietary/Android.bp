@@ -12477,21 +12477,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.sigma_miracast@1.0__3",
-    owner: "google_devices",
-    stem: "vendor.qti.hardware.sigma_miracast@1.0",
-    target: {
-        android_arm: { srcs: [ "vendor/lib/vendor.qti.hardware.sigma_miracast@1.0.so" ] },
-        android_arm64: { srcs: [ "vendor/lib64/vendor.qti.hardware.sigma_miracast@1.0.so" ] }
-    },
-    compile_multilib: "both",
-    check_elf_files: false,
-    prefer: true,
-    strip: { none: true },
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.vpp@1.1",
     owner: "google_devices",
     target: { android_arm64: { srcs: [ "vendor/lib64/vendor.qti.hardware.vpp@1.1.so" ] } },
@@ -12507,21 +12492,6 @@ cc_prebuilt_library_shared {
     owner: "google_devices",
     target: { android_arm64: { srcs: [ "vendor/lib64/vendor.qti.hardware.vpp@1.2.so" ] } },
     compile_multilib: "64",
-    check_elf_files: false,
-    prefer: true,
-    strip: { none: true },
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.wifidisplaysession@1.0__3",
-    owner: "google_devices",
-    stem: "vendor.qti.hardware.wifidisplaysession@1.0",
-    target: {
-        android_arm: { srcs: [ "vendor/lib/vendor.qti.hardware.wifidisplaysession@1.0.so" ] },
-        android_arm64: { srcs: [ "vendor/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so" ] }
-    },
-    compile_multilib: "both",
     check_elf_files: false,
     prefer: true,
     strip: { none: true },

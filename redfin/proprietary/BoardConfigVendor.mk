@@ -15,6 +15,7 @@ SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
 
 BOARD_VENDOR_SEPOLICY_DIRS += \
     hardware/google/pixel-sepolicy/confirmationui_hal \
+    hardware/google/pixel-sepolicy/input \
     hardware/google/pixel-sepolicy/googlebattery \
     hardware/google/pixel-sepolicy/turbo_adapter \
     vendor/google_devices/redfin/sepolicy

@@ -24,14 +24,19 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/redfin/proprietary/product/etc/CarrierSettings/carrier_list.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/carrier_list.pb \
     vendor/google_devices/redfin/proprietary/product/etc/CarrierSettings/cellcom_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/cellcom_us.pb \
     vendor/google_devices/redfin/proprietary/product/etc/CarrierSettings/cellcommno_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/cellcommno_us.pb \
+    vendor/google_devices/redfin/proprietary/product/etc/CarrierSettings/chatr_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/chatr_ca.pb \
     vendor/google_devices/redfin/proprietary/product/etc/CarrierSettings/cht_tw.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/cht_tw.pb \
+    vendor/google_devices/redfin/proprietary/product/etc/CarrierSettings/cityfone_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/cityfone_ca.pb \
+    vendor/google_devices/redfin/proprietary/product/etc/CarrierSettings/claro_pr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/claro_pr.pb \
     vendor/google_devices/redfin/proprietary/product/etc/CarrierSettings/congstar_de.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/congstar_de.pb \
     vendor/google_devices/redfin/proprietary/product/etc/CarrierSettings/consumercellulartmo_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/consumercellulartmo_us.pb \
     vendor/google_devices/redfin/proprietary/product/etc/CarrierSettings/coriolis_fr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/coriolis_fr.pb \
     vendor/google_devices/redfin/proprietary/product/etc/CarrierSettings/cricket_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/cricket_us.pb \
     vendor/google_devices/redfin/proprietary/product/etc/CarrierSettings/cricket5g_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/cricket5g_us.pb \
+    vendor/google_devices/redfin/proprietary/product/etc/CarrierSettings/cspire_nl.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/cspire_nl.pb \
     vendor/google_devices/redfin/proprietary/product/etc/CarrierSettings/cspire_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/cspire_us.pb \
     vendor/google_devices/redfin/proprietary/product/etc/CarrierSettings/default.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/default.pb \
+    vendor/google_devices/redfin/proprietary/product/etc/CarrierSettings/dishatt_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/dishatt_us.pb \
     vendor/google_devices/redfin/proprietary/product/etc/CarrierSettings/docomo_jp.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/docomo_jp.pb \
     vendor/google_devices/redfin/proprietary/product/etc/CarrierSettings/docomomvno_jp.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/docomomvno_jp.pb \
     vendor/google_devices/redfin/proprietary/product/etc/CarrierSettings/ee_gb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/ee_gb.pb \
@@ -114,6 +119,7 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/redfin/proprietary/product/etc/CarrierSettings/tmobile_cz.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tmobile_cz.pb \
     vendor/google_devices/redfin/proprietary/product/etc/CarrierSettings/tmobile_nl.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tmobile_nl.pb \
     vendor/google_devices/redfin/proprietary/product/etc/CarrierSettings/tmobile_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tmobile_us.pb \
+    vendor/google_devices/redfin/proprietary/product/etc/CarrierSettings/tmomvno_nl.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tmomvno_nl.pb \
     vendor/google_devices/redfin/proprietary/product/etc/CarrierSettings/tmomvno_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tmomvno_us.pb \
     vendor/google_devices/redfin/proprietary/product/etc/CarrierSettings/tracfonetmo_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tracfonetmo_us.pb \
     vendor/google_devices/redfin/proprietary/product/etc/CarrierSettings/tracfoneverizon_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tracfoneverizon_us.pb \
@@ -374,6 +380,7 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/redfin/proprietary/vendor/etc/ssg/ta_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/ta_config.json \
     vendor/google_devices/redfin/proprietary/vendor/etc/ssg/tz_whitelist.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/tz_whitelist.json \
     vendor/google_devices/redfin/proprietary/vendor/etc/thermal.mps:$(TARGET_COPY_OUT_VENDOR)/etc/thermal.mps \
+    vendor/google_devices/redfin/proprietary/vendor/etc/twoshay_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/twoshay_config.json \
     vendor/google_devices/redfin/proprietary/vendor/etc/wifi/aoa_cldb_falcon.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/aoa_cldb_falcon.bin \
     vendor/google_devices/redfin/proprietary/vendor/etc/wifi/aoa_cldb_swl14.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/aoa_cldb_swl14.bin \
     vendor/google_devices/redfin/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
@@ -2117,7 +2124,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.secureprocessor.device@1.0 \
     vendor.qti.hardware.sigma_miracast@1.0 \
     vendor.qti.hardware.sigma_miracast@1.0__2 \
-    vendor.qti.hardware.sigma_miracast@1.0__3 \
     vendor.qti.hardware.sigma_miracast@1.0-impl \
     vendor.qti.hardware.slmadapter-V1.0-java \
     vendor.qti.hardware.slmadapter@1.0 \
@@ -2134,7 +2140,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.vpp@1.2 \
     vendor.qti.hardware.wifidisplaysession@1.0 \
     vendor.qti.hardware.wifidisplaysession@1.0__2 \
-    vendor.qti.hardware.wifidisplaysession@1.0__3 \
     vendor.qti.hardware.wigig.netperftuner@1.0 \
     vendor.qti.ims.callcapability@1.0 \
     vendor.qti.ims.callinfo-V1.0-java \
@@ -2171,7 +2176,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
     graphics.gpu.profiler.vulkan_layer_apk=com.google.pixel.redbull.gpuprofiling.vulkanlayer \
     ro.setupwizard.enterprise_mode=1 \
     ro.setupwizard.esim_cid_ignore=00000001 \
-    ro.setupwizard.rotation_locked=true \
     setupwizard.feature.baseline_setupwizard_enabled=true \
     setupwizard.feature.show_pai_screen_in_main_flow.carrier1839=false \
     setupwizard.feature.skip_button_use_mobile_data.carrier1839=true \
@@ -2179,13 +2183,14 @@ PRODUCT_PRODUCT_PROPERTIES += \
     setupwizard.feature.show_pixel_tos=true \
     setupwizard.feature.show_support_link_in_deferred_setup=false \
     ro.carriersetup.vzw_consent_page=true \
+    ro.setupwizard.rotation_locked=true \
     setupwizard.feature.device_default_dark_mode=true \
     ro.vendor.camera.extensions.package=com.google.android.apps.camera.services \
     ro.vendor.camera.extensions.service=com.google.android.apps.camera.services.extensions.service.PixelExtensions
 
 PRODUCT_VENDOR_PROPERTIES += \
-    ro.build.expect.bootloader=r3-0.4-7758093 \
-    ro.build.expect.baseband=g7250-00161-211008-B-7807492 \
+    ro.build.expect.bootloader=r3-0.4-8048798 \
+    ro.build.expect.baseband=g7250-00188-220211-B-8174514 \
     ro.crypto.dm_default_key.options_format.version=2 \
     ro.crypto.volume.metadata.method=dm-default-key \
     persist.vendor.sensors.odl.adsp=true \
@@ -2195,4 +2200,4 @@ PRODUCT_VENDOR_PROPERTIES += \
     drm.service.enabled=true \
     media.mediadrmservice.enable=true
 
-PRODUCT_OVERRIDE_FINGERPRINT := google/redfin/redfin:12/SQ1A.220105.002/7961164:user/release-keys
+PRODUCT_OVERRIDE_FINGERPRINT := google/redfin/redfin:12/SP2A.220305.012/8177914:user/release-keys

@@ -134,10 +134,10 @@ burst_delay_aod=0
 hxtalk=1
 pulse_count=1
 vcsel_ma=10
-pd0_far_threshold=100
-pd0_near_threshold=100
-pd1_far_threshold=80
-pd1_near_threshold=120
+pd0_far_threshold=50
+pd0_near_threshold=50
+pd1_far_threshold=40
+pd1_near_threshold=60
 # "Low power" operating parameters.
 pulse_len_us=512
 filter_len=4

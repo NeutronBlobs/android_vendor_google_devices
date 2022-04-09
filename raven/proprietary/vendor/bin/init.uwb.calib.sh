@@ -13,6 +13,9 @@ if [ ! -f "$OUTPUT_CALIB" ]; then
     do
         case $f1 in
             "UWB_cal_tx_xtal_reg_final_value")
+                if [ $((0x$f2)) -gt 63 ]; then
+                    f2=63
+                fi
                 echo 'xtal_trim=0x'$f2 >> $OUTPUT_CALIB
                 ;;
         esac

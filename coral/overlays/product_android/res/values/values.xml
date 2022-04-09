@@ -74,5 +74,4 @@
   <bool name="config_fingerprintSupportsGestures">true</bool>
   <bool name="config_supportsCamToggle">true</bool>
   <bool name="config_supportsMicToggle">true</bool>
-  <bool name="config_volumeAdjustmentForRemoteGroupSessions">false</bool>
 </resources>

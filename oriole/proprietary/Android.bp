@@ -221,6 +221,16 @@ android_app_import {
 }
 
 android_app_import {
+    name: "USCCDM",
+    owner: "google_devices",
+    apk: "product/priv-app/USCCDM/USCCDM.apk",
+    certificate: "platform",
+    privileged: true,
+    dex_preopt: { enabled: false },
+    product_specific: true,
+}
+
+android_app_import {
     name: "WfcActivation",
     owner: "google_devices",
     apk: "product/priv-app/WfcActivation/WfcActivation.apk",
@@ -447,6 +457,16 @@ android_app_import {
     owner: "google_devices",
     apk: "system_ext/priv-app/EuiccSupportPixelPermissions/EuiccSupportPixelPermissions.apk",
     presigned: true,
+    privileged: true,
+    dex_preopt: { enabled: false },
+    system_ext_specific: true,
+}
+
+android_app_import {
+    name: "FactoryOtaPrebuilt",
+    owner: "google_devices",
+    apk: "system_ext/priv-app/FactoryOtaPrebuilt/FactoryOtaPrebuilt.apk",
+    certificate: "platform",
     privileged: true,
     dex_preopt: { enabled: false },
     system_ext_specific: true,

@@ -4,6 +4,7 @@
 <resources>
   <integer name="haptics_level_max">3</integer>
   <string name="peak_refresh_rate_summary">Automatically raises the refresh rate from 60 up to 120 Hz for some content. Increases battery usage.</string>
+  <string name="suggested_fingerprint_lock_settings_title">Use Fingerprint Unlock</string>
   <string-array name="enabled_networks_except_gsm_values">
     <item>"10"</item>
     <item>"0"</item>
