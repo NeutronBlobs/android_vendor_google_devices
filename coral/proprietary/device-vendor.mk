@@ -1983,4 +1983,4 @@ PRODUCT_VENDOR_PROPERTIES += \
     drm.service.enabled=true \
     media.mediadrmservice.enable=true
 
-PRODUCT_OVERRIDE_FINGERPRINT := google/coral/coral:12/SP2A.220305.012/8177914:user/release-keys
+PRODUCT_OVERRIDE_FINGERPRINT := google/coral/coral:12/SP2A.220405.003/8210211:user/release-keys

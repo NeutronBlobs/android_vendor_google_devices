@@ -5,8 +5,8 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),redfin)
 
-$(call add-radio-file,firmware/bootloader.img)
 $(call add-radio-file,firmware/radio.img)
+$(call add-radio-file,firmware/bootloader.img)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := device_symlinks

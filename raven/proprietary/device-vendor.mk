@@ -302,7 +302,6 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/0fea88e9f1bfe0cf9dcd0b0589926897cbd3aa6a:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/0fea88e9f1bfe0cf9dcd0b0589926897cbd3aa6a \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/11428a13de9a9914735b1db02f77232c180276f3:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/11428a13de9a9914735b1db02f77232c180276f3 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/11b66f04bd1060ab6e1b57846113cf9b2ce1afd2:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/11b66f04bd1060ab6e1b57846113cf9b2ce1afd2 \
-    vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/121e16b6aa3fcbb2473514ea6087dcea1bf4b569:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/121e16b6aa3fcbb2473514ea6087dcea1bf4b569 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/12795987f499fe3d5901477d5809ed99758068e5:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/12795987f499fe3d5901477d5809ed99758068e5 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/12a77ebb95d55bf62870c035a8d6cb62a212fbe2:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/12a77ebb95d55bf62870c035a8d6cb62a212fbe2 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/13320c1b8ea5ec01e2b888fc8068c5c331391ea9:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/13320c1b8ea5ec01e2b888fc8068c5c331391ea9 \
@@ -310,9 +309,11 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/1396e0f66f3d4c490a5328ec21bce0a4cb0dc914:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/1396e0f66f3d4c490a5328ec21bce0a4cb0dc914 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/1407e328d28aa329d2143dfbecf58c63bdac3ea5:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/1407e328d28aa329d2143dfbecf58c63bdac3ea5 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/143dbb088a0cd398cdbdfc22983e7b1b4d433c64:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/143dbb088a0cd398cdbdfc22983e7b1b4d433c64 \
+    vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/143e4408d3ce216a7073449c185e9f02102f0f7b:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/143e4408d3ce216a7073449c185e9f02102f0f7b \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/145bc9bb28d83860e61512664148de4ac65b95ea:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/145bc9bb28d83860e61512664148de4ac65b95ea \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/147a776eb5a4216ee9f44cb6422495ab14e4f467:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/147a776eb5a4216ee9f44cb6422495ab14e4f467 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/14f31f95fe6c131fc4a226ffcbd51b74ea951f22:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/14f31f95fe6c131fc4a226ffcbd51b74ea951f22 \
+    vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/1535a8e87a720ba38fa4403930e840e1e4494eea:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/1535a8e87a720ba38fa4403930e840e1e4494eea \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/153791ead7e7ce93280d2b09ef2bc06cb45fc813:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/153791ead7e7ce93280d2b09ef2bc06cb45fc813 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/15a9ee72ed75d91f4500af02b8618f1381190daa:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/15a9ee72ed75d91f4500af02b8618f1381190daa \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/15dc27d9877762f7bb5010123d07a1aaf8c113fe:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/15dc27d9877762f7bb5010123d07a1aaf8c113fe \
@@ -337,6 +338,7 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/1e022b7fc763fb9633d4e3c2df4cb6a652df05a9:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/1e022b7fc763fb9633d4e3c2df4cb6a652df05a9 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/1e5c554d2ac66a74681d65daba80e23e0d16131c:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/1e5c554d2ac66a74681d65daba80e23e0d16131c \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/1f3bde980a6dd1b8705a1e4d80979fedf16145a4:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/1f3bde980a6dd1b8705a1e4d80979fedf16145a4 \
+    vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/1f9404340ad1539c405114036f510708c67e3fe0:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/1f9404340ad1539c405114036f510708c67e3fe0 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/1fa874b47c50ec1d7235f5ac80ea8bdc32598a3e:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/1fa874b47c50ec1d7235f5ac80ea8bdc32598a3e \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/200a2cd99a52f874be5394f52fe43b50aa7c34af:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/200a2cd99a52f874be5394f52fe43b50aa7c34af \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/201d7a1b5e5bdb6f2307217f78811afc0710b91e:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/201d7a1b5e5bdb6f2307217f78811afc0710b91e \
@@ -380,6 +382,7 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/35c2c86701315a74b5044f99f04d19ffcfdb957a:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/35c2c86701315a74b5044f99f04d19ffcfdb957a \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/3706ef34d16c2f825a6ad1c59a51431aaa8e16c5:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/3706ef34d16c2f825a6ad1c59a51431aaa8e16c5 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/370affe7cfcb215ebe956d46bc06ef7770742409:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/370affe7cfcb215ebe956d46bc06ef7770742409 \
+    vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/38006489e62d9b45d454c111e19e41720776f0fb:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/38006489e62d9b45d454c111e19e41720776f0fb \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/386749bd385724f028a71e3f9dac9a615c36c1e5:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/386749bd385724f028a71e3f9dac9a615c36c1e5 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/38b37ae146e4f56f263cced9bfb1f22b91ff0166:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/38b37ae146e4f56f263cced9bfb1f22b91ff0166 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/3970be2aea2da176fc6fdd4e547143eb0cd6bb97:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/3970be2aea2da176fc6fdd4e547143eb0cd6bb97 \
@@ -404,7 +407,6 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/4028eba826440d29d7049b988814bf16e043ac37:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/4028eba826440d29d7049b988814bf16e043ac37 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/405126a2845b9a2ceb9bf3f4bc35333ba1bdbac9:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/405126a2845b9a2ceb9bf3f4bc35333ba1bdbac9 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/41278aad480e65325d033d30c6b63ead9067c30f:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/41278aad480e65325d033d30c6b63ead9067c30f \
-    vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/41da1f1535405e47496baea3bce029aef865e3d9:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/41da1f1535405e47496baea3bce029aef865e3d9 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/4242d7736a24e5a54ad89ba67642c03e8401f0e9:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/4242d7736a24e5a54ad89ba67642c03e8401f0e9 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/43cba0607fce60f618a930f4b44bf1f4b47f4528:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/43cba0607fce60f618a930f4b44bf1f4b47f4528 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/44793533bbff79b4d5d503c4868c91c6948288a9:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/44793533bbff79b4d5d503c4868c91c6948288a9 \
@@ -438,15 +440,18 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/4fd6009aef64015aa42a9c954a9e861ffc98794f:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/4fd6009aef64015aa42a9c954a9e861ffc98794f \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/500329abac100a953a7396b54b36be57d333022f:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/500329abac100a953a7396b54b36be57d333022f \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/50169e2665468049b3ad9db99f503972a745955d:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/50169e2665468049b3ad9db99f503972a745955d \
+    vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/5066f8636b8e2890e4358737416895003a66ca3a:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/5066f8636b8e2890e4358737416895003a66ca3a \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/5073c1935338b9f3142740c01c0f372e07f24670:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/5073c1935338b9f3142740c01c0f372e07f24670 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/50912fe8a611ed4c265c83c24c98e6adc0275116:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/50912fe8a611ed4c265c83c24c98e6adc0275116 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/50944613eea19e93de96ffda0102ab0a86160853:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/50944613eea19e93de96ffda0102ab0a86160853 \
+    vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/51c267590f99e1282e58ace77f8ccdad7e0a526d:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/51c267590f99e1282e58ace77f8ccdad7e0a526d \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/528f03ca8cdebe4cd321fa14ea090dfb80a474f3:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/528f03ca8cdebe4cd321fa14ea090dfb80a474f3 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/54b3e870d305104a7576109752901ca06e8d1289:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/54b3e870d305104a7576109752901ca06e8d1289 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/556e56c6105f13830e00cfceec18c45aaf42acd4:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/556e56c6105f13830e00cfceec18c45aaf42acd4 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/5578c7c0ba796d19fc6eb12222834422d5ea7daa:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/5578c7c0ba796d19fc6eb12222834422d5ea7daa \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/558a044cb99071c48efead8d10f8826d8132a53d:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/558a044cb99071c48efead8d10f8826d8132a53d \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/57a87805d731c94cf808e9ab5d82222db5702b22:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/57a87805d731c94cf808e9ab5d82222db5702b22 \
+    vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/57cff984b25d06091c3e40889f97b9ecb975d16f:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/57cff984b25d06091c3e40889f97b9ecb975d16f \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/580c51782a9596434ee548c7fab77623db93f49a:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/580c51782a9596434ee548c7fab77623db93f49a \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/58f52f29c161ccaefd7024519b92d2578497d1d0:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/58f52f29c161ccaefd7024519b92d2578497d1d0 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/59c8843b075d45dda94294dd39357ca580f9d933:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/59c8843b075d45dda94294dd39357ca580f9d933 \
@@ -533,7 +538,6 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/7b52c5f476aa565489688ed4e236146df3c60245:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/7b52c5f476aa565489688ed4e236146df3c60245 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/7ba862e14075f2272ed2cecd43d53e43156278ba:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/7ba862e14075f2272ed2cecd43d53e43156278ba \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/7c24f7d0963c54d77aba4845c811a8825e9d8ffa:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/7c24f7d0963c54d77aba4845c811a8825e9d8ffa \
-    vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/7c3d79ad827eda735aaaec0a004eddcf6649703b:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/7c3d79ad827eda735aaaec0a004eddcf6649703b \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/7c6a40a2434dc4d380e5262bb1b7de3675142119:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/7c6a40a2434dc4d380e5262bb1b7de3675142119 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/7c9ed83fe3a81b9534c51229c559c52c59e2b063:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/7c9ed83fe3a81b9534c51229c559c52c59e2b063 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/7ceb12da0ec27453b740610db655ba5ebc50e9d0:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/7ceb12da0ec27453b740610db655ba5ebc50e9d0 \
@@ -566,7 +570,6 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/89434e1f62b4e4f23394067649585b4c2ed5e76f:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/89434e1f62b4e4f23394067649585b4c2ed5e76f \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/8992999f05a76ee30241866dee4679600c5a529a:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/8992999f05a76ee30241866dee4679600c5a529a \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/89e9f9ec81b3cef3baf9efab824616f1aa741390:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/89e9f9ec81b3cef3baf9efab824616f1aa741390 \
-    vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/8a69755b1c1e77331aa8be5715ec87ece33eeea9:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/8a69755b1c1e77331aa8be5715ec87ece33eeea9 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/8b5655f5fd3eff2d05ebc50476e1e9d6b7aa1821:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/8b5655f5fd3eff2d05ebc50476e1e9d6b7aa1821 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/8c212ac3af1871e425708ec0fc1b97ac469fed0a:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/8c212ac3af1871e425708ec0fc1b97ac469fed0a \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/8cdc5b1a13e3895ccbf2b61ab67565149c79e8a4:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/8cdc5b1a13e3895ccbf2b61ab67565149c79e8a4 \
@@ -612,7 +615,6 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/a288760bd66623358bd702488a78668056034bc0:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/a288760bd66623358bd702488a78668056034bc0 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/a3d4165d80b3fba2bbc9051ff8d74111efe1626d:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/a3d4165d80b3fba2bbc9051ff8d74111efe1626d \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/a495afd5551d566f46912247c127854cb3639bd1:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/a495afd5551d566f46912247c127854cb3639bd1 \
-    vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/a4c4536df20229a672c13622604cac682a05a1db:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/a4c4536df20229a672c13622604cac682a05a1db \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/a4d8dba66afb55b2cb402612acf16dbfa28f4f06:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/a4d8dba66afb55b2cb402612acf16dbfa28f4f06 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/a4eb40649dc4f9cf4a1c5876bd0fb1fa1544b964:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/a4eb40649dc4f9cf4a1c5876bd0fb1fa1544b964 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/a4f87f84bf27f7331a0045f8b9b445e9b0691864:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/a4f87f84bf27f7331a0045f8b9b445e9b0691864 \
@@ -644,9 +646,9 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/b5a117a6c60f80f85ff23aa956a6ac15ce82f0ea:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/b5a117a6c60f80f85ff23aa956a6ac15ce82f0ea \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/b5fb61d1edb0fbba2325b24201a83536d35612e9:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/b5fb61d1edb0fbba2325b24201a83536d35612e9 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/b6c35dc20c186cf5c880be0570f6d84c8f21de1c:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/b6c35dc20c186cf5c880be0570f6d84c8f21de1c \
-    vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/b808588ea879050598db1c5eed896f4aff65b0b2:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/b808588ea879050598db1c5eed896f4aff65b0b2 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/b84a5c697d536271baebcf7867c8a62433ad9742:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/b84a5c697d536271baebcf7867c8a62433ad9742 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/b85c75353d98371db96edac64cd87493d9b75948:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/b85c75353d98371db96edac64cd87493d9b75948 \
+    vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/b87a0c52d9d7f4f17678c3c5a255008d86b86420:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/b87a0c52d9d7f4f17678c3c5a255008d86b86420 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/b9b4712556d9acd8367439129d5e1e7dbb343657:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/b9b4712556d9acd8367439129d5e1e7dbb343657 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/b9c38d182d188d2eff0d739191518ff6f0a32ff4:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/b9c38d182d188d2eff0d739191518ff6f0a32ff4 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/ba7cdd01ba35ce3c201c24496723f6b4a4aa7279:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/ba7cdd01ba35ce3c201c24496723f6b4a4aa7279 \
@@ -686,7 +688,6 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/cd920973f3713e0cafb4968984fbe5ff27460b47:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/cd920973f3713e0cafb4968984fbe5ff27460b47 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/cdb2c5e9baef7c5f07cd2bc891c49fc1be9dca24:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/cdb2c5e9baef7c5f07cd2bc891c49fc1be9dca24 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/ce0a6412c56e549eff33a208215c0ec4132d728f:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/ce0a6412c56e549eff33a208215c0ec4132d728f \
-    vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/cf0fafdb17d94f20c2cb4ddd60b3bc6c4e0970e9:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/cf0fafdb17d94f20c2cb4ddd60b3bc6c4e0970e9 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/cf866ba88fc81fc43a19dea5e4b38c7fa1bfbb43:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/cf866ba88fc81fc43a19dea5e4b38c7fa1bfbb43 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/d0d765c581e63d79053171af22f4638a27a87a0e:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/d0d765c581e63d79053171af22f4638a27a87a0e \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/d1765fcc000dfd38c45a64d7e014f7d26b15ff5b:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/d1765fcc000dfd38c45a64d7e014f7d26b15ff5b \
@@ -729,12 +730,13 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/e08f305d741371fe5bd00618ea6280ea989b86b5:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/e08f305d741371fe5bd00618ea6280ea989b86b5 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/e0c587729930a5f86a7b75dc01ce5ac0986dfb99:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/e0c587729930a5f86a7b75dc01ce5ac0986dfb99 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/e0dc77eb50cb9623c060ebbf903888291cbc52fb:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/e0dc77eb50cb9623c060ebbf903888291cbc52fb \
-    vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/e14433125474e0d40e1da7d139fe3506c3f549c2:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/e14433125474e0d40e1da7d139fe3506c3f549c2 \
+    vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/e151152df7989f67e9b7326550215d7c43ae6901:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/e151152df7989f67e9b7326550215d7c43ae6901 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/e26bfa3b76dbeff4e4706d4afc7fd411ae5dd8f6:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/e26bfa3b76dbeff4e4706d4afc7fd411ae5dd8f6 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/e285f02e69eaca0711d2d0038cf5dfc8f9539d70:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/e285f02e69eaca0711d2d0038cf5dfc8f9539d70 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/e541b3654f812a5a3ef1e569cec363f999f0db51:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/e541b3654f812a5a3ef1e569cec363f999f0db51 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/e5a3d407e2740c5b4a4d48576b52094b0cd43dab:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/e5a3d407e2740c5b4a4d48576b52094b0cd43dab \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/e5a90fa88c61f81039028909749690ff597f5ef9:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/e5a90fa88c61f81039028909749690ff597f5ef9 \
+    vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/e5cb7e4a05538b14fd1c052f82841a9ea3cbc03a:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/e5cb7e4a05538b14fd1c052f82841a9ea3cbc03a \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/e6954c69464095b78c2c323eba4115c046e1d3f4:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/e6954c69464095b78c2c323eba4115c046e1d3f4 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/e794e1c8367ed68c5e8d4c9d3abdfb2fbdd39ee6:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/e794e1c8367ed68c5e8d4c9d3abdfb2fbdd39ee6 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/e82f1fb0ac8da9730c38dea8b0ba4188e025d25f:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/e82f1fb0ac8da9730c38dea8b0ba4188e025d25f \
@@ -765,6 +767,7 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/f8a4b5d976e1d468dab419bf635e5d6fbbad2564:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/f8a4b5d976e1d468dab419bf635e5d6fbbad2564 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/f90615677baff6baac0b7fe1dfca59fe28e5cc8a:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/f90615677baff6baac0b7fe1dfca59fe28e5cc8a \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/f9d69cd3760d6672326212ea8ae6205fadbd4c00:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/f9d69cd3760d6672326212ea8ae6205fadbd4c00 \
+    vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/fa10179221dbac8c476cd69fcf427792cfb88403:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/fa10179221dbac8c476cd69fcf427792cfb88403 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/fa9c20e55568134d4e5bf40b6051243c983c7ff5:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/fa9c20e55568134d4e5bf40b6051243c983c7ff5 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/fafb36c39a9216eca191fb10cc5d1512a010a754:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/fafb36c39a9216eca191fb10cc5d1512a010a754 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/fbd8fc0784d84d8077e94c0529495cbb3fb5d0ac:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/fbd8fc0784d84d8077e94c0529495cbb3fb5d0ac \
@@ -774,6 +777,7 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/fca7a653fe76b198e82829d28958c55a6781fc53:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/fca7a653fe76b198e82829d28958c55a6781fc53 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/fcd85d7eafb6f423ce75c4006226dc7428b861f8:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/fcd85d7eafb6f423ce75c4006226dc7428b861f8 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/fd04d896523f98e75dcaa81c307027b2eba130ac:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/fd04d896523f98e75dcaa81c307027b2eba130ac \
+    vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/fd47373a4443dc2358b3787da22ccc543c07833f:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/fd47373a4443dc2358b3787da22ccc543c07833f \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/fd48ecda303ea0d8640b63279ff6ca59c67bad00:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/fd48ecda303ea0d8640b63279ff6ca59c67bad00 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/fddca762c06a537728227801872a861b283c04de:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/fddca762c06a537728227801872a861b283c04de \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/confseqs/fe8ecc66ce9d152f14b0bc22fbad7784b8a57dfe:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/confseqs/fe8ecc66ce9d152f14b0bc22fbad7784b8a57dfe \
@@ -784,7 +788,6 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/06d75a4cfd756a807c1ae806b5744becbcd875d4:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/06d75a4cfd756a807c1ae806b5744becbcd875d4 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/06e989114bff4e9272411a990a4622a1ad727abf:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/06e989114bff4e9272411a990a4622a1ad727abf \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/0f846fd86f4793d536061f50d72a1a9efd8187e9:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/0f846fd86f4793d536061f50d72a1a9efd8187e9 \
-    vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/11a5718c231545857582e074c3eeafb544632e6a:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/11a5718c231545857582e074c3eeafb544632e6a \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/13d52ce3faa217e0a6bb69048809f917c4e57895:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/13d52ce3faa217e0a6bb69048809f917c4e57895 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/17b21399d50d671c4770c9738e39326b3f85fd25:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/17b21399d50d671c4770c9738e39326b3f85fd25 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/182c9c43ad6f299e9c009bc0598a9d0e3ad861c9:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/182c9c43ad6f299e9c009bc0598a9d0e3ad861c9 \
@@ -798,12 +801,13 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/305373522b60feeac9e05cd7fa1c6c68506f89ca:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/305373522b60feeac9e05cd7fa1c6c68506f89ca \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/30fc0dedd4fadcb4f9877d65e7d247a37a4ae1b8:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/30fc0dedd4fadcb4f9877d65e7d247a37a4ae1b8 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/31743ffe41367b860a239772f3aef4a2f793ba11:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/31743ffe41367b860a239772f3aef4a2f793ba11 \
+    vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/32ceba98141456675b94a05d05b8f3b48a33e1c4:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/32ceba98141456675b94a05d05b8f3b48a33e1c4 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/35a6a27d2f58769475c1718cfd46885c25b5660a:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/35a6a27d2f58769475c1718cfd46885c25b5660a \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/397e7a84a14232aa4aa46fc102f4a5adb272961e:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/397e7a84a14232aa4aa46fc102f4a5adb272961e \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/3bb035b3b0bfa188debcf66743ce258138eead8a:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/3bb035b3b0bfa188debcf66743ce258138eead8a \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/3dcb3afe4756afcdbf5e214d6b8ba51455059575:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/3dcb3afe4756afcdbf5e214d6b8ba51455059575 \
-    vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/3ec91e9241ac267198be1ed8cd9f2ccfabddab6f:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/3ec91e9241ac267198be1ed8cd9f2ccfabddab6f \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/457f2e66cefb51f81320584c887af51d6191c300:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/457f2e66cefb51f81320584c887af51d6191c300 \
+    vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/4ace87ae6ffb7ecd8e723bcd696f90277cbb7c95:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/4ace87ae6ffb7ecd8e723bcd696f90277cbb7c95 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/4df22865d78069c2edd4736a95a7b6136b2d390a:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/4df22865d78069c2edd4736a95a7b6136b2d390a \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/541c5ad035b9bb2b4e61ad1ee15618cfe549577f:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/541c5ad035b9bb2b4e61ad1ee15618cfe549577f \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/549a026ae224e2f0714732026fda2e5fe6b2b359:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/549a026ae224e2f0714732026fda2e5fe6b2b359 \
@@ -814,7 +818,6 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/62635671cc21cee43383f82580e2c87c4b909c96:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/62635671cc21cee43383f82580e2c87c4b909c96 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/63c829b98dcde0111e8d421490e427590dc04692:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/63c829b98dcde0111e8d421490e427590dc04692 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/660dfdc8409df7232aa2075a8560715ccae661a4:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/660dfdc8409df7232aa2075a8560715ccae661a4 \
-    vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/66f936631bf8909f1426967deaa04eef9a806d3a:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/66f936631bf8909f1426967deaa04eef9a806d3a \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/6c3157f204f2e6cb5b87447fe7d96634ee8a1045:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/6c3157f204f2e6cb5b87447fe7d96634ee8a1045 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/6d32c35a66ba0fa83f6b22bb17d1e9ad3fa072b5:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/6d32c35a66ba0fa83f6b22bb17d1e9ad3fa072b5 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/6e0bc36904ac2163df7382b23aa8ea7bb0a1d1c7:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/6e0bc36904ac2163df7382b23aa8ea7bb0a1d1c7 \
@@ -837,12 +840,11 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/8087a5f9a28ca708bf50b790e4f267d618a92e8c:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/8087a5f9a28ca708bf50b790e4f267d618a92e8c \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/83128b2bea3ccf15ad5da4979059b39c7da498c3:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/83128b2bea3ccf15ad5da4979059b39c7da498c3 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/86e98261d111f16c088b25dfa8a7e48ec1acd850:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/86e98261d111f16c088b25dfa8a7e48ec1acd850 \
+    vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/8dd07998d3df33c16eb0e194941340a049ea6209:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/8dd07998d3df33c16eb0e194941340a049ea6209 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/8f1f676232e4a2af5f02d534565d036ec8549c4e:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/8f1f676232e4a2af5f02d534565d036ec8549c4e \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/8fcd329cd008ac329ff31fb8a50a1c8e15acea8b:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/8fcd329cd008ac329ff31fb8a50a1c8e15acea8b \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/909ce6e829de566fb08646b6fb5cc66fc04eb871:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/909ce6e829de566fb08646b6fb5cc66fc04eb871 \
-    vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/90f8fc9bc008d3f770f38940dd8159b647de6c0a:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/90f8fc9bc008d3f770f38940dd8159b647de6c0a \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/95f206878cae2bf87a4500989d1897e7419593f3:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/95f206878cae2bf87a4500989d1897e7419593f3 \
-    vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/9a9ecf1b9d46389daf832bcb0be678340a623f52:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/9a9ecf1b9d46389daf832bcb0be678340a623f52 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/9d045d9d2bc9385ec3a38bbc5f8c4f6c3a5e95ae:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/9d045d9d2bc9385ec3a38bbc5f8c4f6c3a5e95ae \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/a09c2fa0cb48a678aacebf49e3378d4a4d3670e2:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/a09c2fa0cb48a678aacebf49e3378d4a4d3670e2 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/a0f69a1c8ff664023c3fafca01d6170576f8f266:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/a0f69a1c8ff664023c3fafca01d6170576f8f266 \
@@ -851,6 +853,7 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/a96b180c1c5f8f65e724beed2f1d18cf29f0979a:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/a96b180c1c5f8f65e724beed2f1d18cf29f0979a \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/aaefdccfeac4a4d89b11c0409b0d6e8a3f6b16c3:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/aaefdccfeac4a4d89b11c0409b0d6e8a3f6b16c3 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/ac9b7eb7a51603c2447e6f4b028a009a4d5e23ad:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/ac9b7eb7a51603c2447e6f4b028a009a4d5e23ad \
+    vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/ad21f5ab10149afcf3e6e6fcefd2df5709198e0c:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/ad21f5ab10149afcf3e6e6fcefd2df5709198e0c \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/ad4cbafac84bbfc352193b5ae24c7ed56ae7efe2:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/ad4cbafac84bbfc352193b5ae24c7ed56ae7efe2 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/af07c01b050dda05cb72a824da361edd5dda1b56:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/af07c01b050dda05cb72a824da361edd5dda1b56 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/b074df4296de430a7eb17f3754ae8a8c5eda5ed9:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/b074df4296de430a7eb17f3754ae8a8c5eda5ed9 \
@@ -858,6 +861,7 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/b7bcdffc7475e6d00dda1cff7bf57b82be03a40b:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/b7bcdffc7475e6d00dda1cff7bf57b82be03a40b \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/ba63b96b525f0cc97de656c64f646f3000f81721:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/ba63b96b525f0cc97de656c64f646f3000f81721 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/c13cf39a213dfeacee4636692f1332bb1f9738ed:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/c13cf39a213dfeacee4636692f1332bb1f9738ed \
+    vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/c2bdeb68086cc7e103aeb3d671f8b1220aea91d9:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/c2bdeb68086cc7e103aeb3d671f8b1220aea91d9 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/c5dba73799673a2b91e2168366c02c2567e3d843:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/c5dba73799673a2b91e2168366c02c2567e3d843 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/c69912be93508d29b10fb450dc843667cba5d041:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/c69912be93508d29b10fb450dc843667cba5d041 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/c733b430fac82441a37b4334e4dedac175ec131c:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/c733b430fac82441a37b4334e4dedac175ec131c \
@@ -866,7 +870,6 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/cf447c00d2c05a9fbfce1498c3202e80b6e0cea9:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/cf447c00d2c05a9fbfce1498c3202e80b6e0cea9 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/cffae9ee805424f55608edc4e3dac7b3ad5f01ac:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/cffae9ee805424f55608edc4e3dac7b3ad5f01ac \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/d099c87c28efbcec93627b90100bba3a975bf3f5:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/d099c87c28efbcec93627b90100bba3a975bf3f5 \
-    vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/d7a21066b651460c87c7a6a2303508a18199b3ec:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/d7a21066b651460c87c7a6a2303508a18199b3ec \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/ddc9e7993e269034dc5c7c8cf2c8da972bcb84b8:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/ddc9e7993e269034dc5c7c8cf2c8da972bcb84b8 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/de092b80d3e6a28025be64c377b0e203d19bdfed:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/de092b80d3e6a28025be64c377b0e203d19bdfed \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/de71e9bb3264117c08f1fbdb15e9614c25b2b6b5:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/de71e9bb3264117c08f1fbdb15e9614c25b2b6b5 \
@@ -876,6 +879,7 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/e21d3a5a34dbf16e67619951d68b3f07c7668937:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/e21d3a5a34dbf16e67619951d68b3f07c7668937 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/e386ef37ebc6a47ba14e191cca2289b723f7647b:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/e386ef37ebc6a47ba14e191cca2289b723f7647b \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/ed56458afa228fb44d1a633adca401852ac013dd:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/ed56458afa228fb44d1a633adca401852ac013dd \
+    vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/edb0661c7038066c7575cade03e930b69a825016:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/edb0661c7038066c7575cade03e930b69a825016 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/edb142054f73a67d37d1035e86652147e158c377:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/edb142054f73a67d37d1035e86652147e158c377 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/f1c4fa58c298e5ab867d978444395de8a084e6e2:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/f1c4fa58c298e5ab867d978444395de8a084e6e2 \
     vendor/google_devices/raven/proprietary/vendor/firmware/carrierconfig/manifests/f4c20e3441d23f90a6d4f7a304f7a952374df899:$(TARGET_COPY_OUT_VENDOR)/firmware/carrierconfig/manifests/f4c20e3441d23f90a6d4f7a304f7a952374df899 \
@@ -1410,8 +1414,8 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.vendor.camera.extensions.service=com.google.android.apps.camera.services.extensions.service.PixelExtensions
 
 PRODUCT_VENDOR_PROPERTIES += \
-    ro.build.expect.bootloader=slider-1.1-8118264 \
-    ro.build.expect.baseband=g5123b-97927-220126-B-8118856 \
+    ro.build.expect.bootloader=slider-1.1-8167057 \
+    ro.build.expect.baseband=g5123b-97927-220225-B-8226700 \
     vendor.debug.ssrdump.type=sscoredump \
     persist.vendor.ril.use_radio_hal=1.6 \
     ro.vendor.config.build_carrier=europen \
@@ -1422,4 +1426,4 @@ PRODUCT_VENDOR_PROPERTIES += \
     media.mediadrmservice.enable=true \
     ro.gfx.angle.supported=true
 
-PRODUCT_OVERRIDE_FINGERPRINT := google/raven/raven:12/S2B3.220205.007.A1/8133516:user/release-keys
+PRODUCT_OVERRIDE_FINGERPRINT := google/raven/raven:12/SP2A.220405.004/8233519:user/release-keys
