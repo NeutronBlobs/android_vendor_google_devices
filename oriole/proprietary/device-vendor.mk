@@ -1400,7 +1400,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.vendor.camera.extensions.service=com.google.android.apps.camera.services.extensions.service.PixelExtensions
 
 PRODUCT_VENDOR_PROPERTIES += \
-    ro.build.expect.bootloader=slider-1.1-8167057 \
+    ro.build.expect.bootloader=slider-1.1-8244211 \
     ro.build.expect.baseband=g5123b-97927-220225-B-8226700 \
     vendor.debug.ssrdump.type=sscoredump \
     persist.vendor.ril.use_radio_hal=1.6 \
@@ -1411,4 +1411,4 @@ PRODUCT_VENDOR_PROPERTIES += \
     media.mediadrmservice.enable=true \
     ro.gfx.angle.supported=true
 
-PRODUCT_OVERRIDE_FINGERPRINT := google/oriole/oriole:12/SP2A.220405.004/8233519:user/release-keys
+PRODUCT_OVERRIDE_FINGERPRINT := google/oriole/oriole:12/SP2A.220505.002/8353555:user/release-keys

@@ -2196,4 +2196,4 @@ PRODUCT_VENDOR_PROPERTIES += \
     drm.service.enabled=true \
     media.mediadrmservice.enable=true
 
-PRODUCT_OVERRIDE_FINGERPRINT := google/bramble/bramble:12/SP2A.220405.003/8210211:user/release-keys
+PRODUCT_OVERRIDE_FINGERPRINT := google/bramble/bramble:12/SP2A.220505.002/8353555:user/release-keys
