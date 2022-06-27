@@ -67,6 +67,7 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/redfin/proprietary/product/etc/CarrierSettings/liberty_pr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/liberty_pr.pb \
     vendor/google_devices/redfin/proprietary/product/etc/CarrierSettings/linemo_jp.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/linemo_jp.pb \
     vendor/google_devices/redfin/proprietary/product/etc/CarrierSettings/luckymobile_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/luckymobile_ca.pb \
+    vendor/google_devices/redfin/proprietary/product/etc/CarrierSettings/m1_sg.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/m1_sg.pb \
     vendor/google_devices/redfin/proprietary/product/etc/CarrierSettings/metropcs_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/metropcs_us.pb \
     vendor/google_devices/redfin/proprietary/product/etc/CarrierSettings/movistar_es.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/movistar_es.pb \
     vendor/google_devices/redfin/proprietary/product/etc/CarrierSettings/o2_de.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/o2_de.pb \
@@ -134,6 +135,7 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/redfin/proprietary/product/etc/CarrierSettings/virgin_gb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/virgin_gb.pb \
     vendor/google_devices/redfin/proprietary/product/etc/CarrierSettings/virgin_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/virgin_us.pb \
     vendor/google_devices/redfin/proprietary/product/etc/CarrierSettings/visible_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/visible_us.pb \
+    vendor/google_devices/redfin/proprietary/product/etc/CarrierSettings/visiblev_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/visiblev_us.pb \
     vendor/google_devices/redfin/proprietary/product/etc/CarrierSettings/vodafone_au.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/vodafone_au.pb \
     vendor/google_devices/redfin/proprietary/product/etc/CarrierSettings/vodafone_cz.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/vodafone_cz.pb \
     vendor/google_devices/redfin/proprietary/product/etc/CarrierSettings/vodafone_de.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/vodafone_de.pb \
@@ -159,6 +161,7 @@ PRODUCT_COPY_FILES += \
     vendor/google_devices/redfin/proprietary/system_ext/etc/init/tcmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/tcmd.rc \
     vendor/google_devices/redfin/proprietary/system_ext/etc/perf/wlc_model.tflite:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/perf/wlc_model.tflite \
     vendor/google_devices/redfin/proprietary/system_ext/priv-app/EuiccSupportPixel/esim-full-v1.img:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/EuiccSupportPixel/esim-full-v1.img \
+    vendor/google_devices/redfin/proprietary/system_ext/priv-app/EuiccSupportPixel/P20_Mini-Applet_dsem.apdu:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/EuiccSupportPixel/P20_Mini-Applet_dsem.apdu \
     vendor/google_devices/redfin/proprietary/vendor/dsp/adsp/activity.napp_header:$(TARGET_COPY_OUT_VENDOR)/dsp/adsp/activity.napp_header \
     vendor/google_devices/redfin/proprietary/vendor/dsp/adsp/AlacDecoderModule.so.1:$(TARGET_COPY_OUT_VENDOR)/dsp/adsp/AlacDecoderModule.so.1 \
     vendor/google_devices/redfin/proprietary/vendor/dsp/adsp/ambient_micro.napp_header:$(TARGET_COPY_OUT_VENDOR)/dsp/adsp/ambient_micro.napp_header \
@@ -1891,6 +1894,7 @@ PRODUCT_PACKAGES += \
     pm-service \
     port-bridge \
     poweropt-service \
+    PresencePolling \
     qcrild \
     qcrild_librilutils \
     qcrilhook \
@@ -1909,6 +1913,7 @@ PRODUCT_PACKAGES += \
     QtiTelephonyService \
     RadioConfigLib \
     ramoops \
+    RcsService \
     rebootescrow-citadel \
     remotesimlockmanagerlibrary \
     RilConfigService \
@@ -2189,8 +2194,8 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.vendor.camera.extensions.service=com.google.android.apps.camera.services.extensions.service.PixelExtensions
 
 PRODUCT_VENDOR_PROPERTIES += \
-    ro.build.expect.bootloader=r3-0.4-8048798 \
-    ro.build.expect.baseband=g7250-00188-220211-B-8174514 \
+    ro.build.expect.bootloader=r3-0.4-8351081 \
+    ro.build.expect.baseband=g7250-00202-220422-B-8489468 \
     ro.crypto.dm_default_key.options_format.version=2 \
     ro.crypto.volume.metadata.method=dm-default-key \
     persist.vendor.sensors.odl.adsp=true \
@@ -2200,4 +2205,4 @@ PRODUCT_VENDOR_PROPERTIES += \
     drm.service.enabled=true \
     media.mediadrmservice.enable=true
 
-PRODUCT_OVERRIDE_FINGERPRINT := google/redfin/redfin:12/SP2A.220505.002/8353555:user/release-keys
+PRODUCT_OVERRIDE_FINGERPRINT := google/redfin/redfin:12/SQ3A.220605.009.A1/8643238:user/release-keys

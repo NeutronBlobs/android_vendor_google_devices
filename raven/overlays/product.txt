@@ -66,6 +66,10 @@ com.google.android.pixel.setupwizard/PixelSetupWizard:string/demo_device_admin_s
 com.google.android.pixel.setupwizard/PixelSetupWizard:string/setup_design_layout_gravity = start
 com.google.android.apps.scone/SconeCbrsCustomizable:bool/config_is_5g_supported_on_only_one_stack = true
 com.android.settings:integer/haptics_level_max = 3
+com.android.settings:dimen/face_preview_scale = 1.2
+com.android.settings:dimen/face_preview_translate_x = -130
+com.android.settings:dimen/face_preview_translate_y = -300
+com.android.settings:dimen/udfps_lottie_translate_y = 16776716.000000dp
 com.android.settings:string/peak_refresh_rate_summary = Automatically raises the refresh rate from 60 up to 120 Hz for some content. Increases battery usage.
 com.android.settings:string-array/enabled_networks_except_gsm_values = 10,0
 com.android.settings:string-array/enabled_networks_values = 10,0,1

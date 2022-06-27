@@ -3,6 +3,10 @@
      For more info, see https://github.com/kdrag0n/adevtool -->
 <resources>
   <integer name="haptics_level_max">3</integer>
+  <dimen name="face_preview_scale">1.2</dimen>
+  <dimen name="face_preview_translate_x">-130</dimen>
+  <dimen name="face_preview_translate_y">-300</dimen>
+  <dimen name="udfps_lottie_translate_y">16776716.000000dp</dimen>
   <string name="peak_refresh_rate_summary">Automatically raises the refresh rate from 60 up to 120 Hz for some content. Increases battery usage.</string>
   <string name="suggested_fingerprint_lock_settings_title">Use Fingerprint Unlock</string>
   <string-array name="enabled_networks_except_gsm_values">

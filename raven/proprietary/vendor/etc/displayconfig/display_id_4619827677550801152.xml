@@ -46,5 +46,14 @@
         <thermalStatusLimit>light</thermalStatusLimit>
         <allowInLowPowerMode>false</allowInLowPowerMode>
     </highBrightnessMode>
+
+      <ambientBrightnessChangeThresholds>
+        <brighteningThresholds>
+          <minimum>10</minimum>
+        </brighteningThresholds>
+        <darkeningThresholds>
+          <minimum>2</minimum>
+        </darkeningThresholds>
+      </ambientBrightnessChangeThresholds>
 </displayConfiguration>
 

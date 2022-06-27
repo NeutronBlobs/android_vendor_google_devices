@@ -2297,16 +2297,6 @@ android_app_import {
 }
 
 android_app_import {
-    name: "LLKAgent",
-    owner: "google_devices",
-    apk: "system_ext/priv-app/LLKAgent/LLKAgent.apk",
-    certificate: "platform",
-    privileged: true,
-    dex_preopt: { enabled: false },
-    system_ext_specific: true,
-}
-
-android_app_import {
     name: "MyVerizonServices",
     owner: "google_devices",
     apk: "system_ext/priv-app/MyVerizonServices/MyVerizonServices.apk",

@@ -243,3 +243,11 @@ ap2aoc_intr_id=16
 ap2aoc_intr_type=4
 ap2aoc_gpio_id=gpio39
 aoc2ap_gpio_id=gpio90
+
++/vsc/auto_brightness
+# float[3]={LuxToEnter, LuxToExit, RemappedLux}
+lux_remap=-1.0 -1.0 -1.0
+
+# float[3]={MinDelta, MaxDelta, LuxRatio}
+lux_debounce_up=1 200 0.1
+lux_debounce_down=1 200 0.1
